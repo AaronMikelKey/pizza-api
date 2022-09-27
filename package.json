@@ -4,6 +4,7 @@
   "private": true,
   "description": "",
   "main": "server.js",
+	"type": "module",
   "scripts": {
     "start": "node server.js"
   },
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.6.2"
   }
 }
